@@ -11,7 +11,6 @@ public class ParseJsonApplication {
 
 	public static void main(String[] args) {
 		try {
-			// Test with various JSON data
 			String jsonObject = "{\"name\": \"Priyanka\", \"age\": 25, \"balance\": 53245.6789033214570902345}";
 			System.out.println(ParseJson.parseJson(jsonObject));
 
